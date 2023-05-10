@@ -12,11 +12,11 @@ header {
 
 header .logo-container {
     flex-grow: 4;  /* Push nav to the right-hand side on larger devices */
+    padding: 1rem 2.5%;
 }
 
 header .logo-container img {
-    width: 200px;
-    padding: 1rem;
+    width: 150px;
 }
 
 header nav {
