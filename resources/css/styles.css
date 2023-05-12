@@ -8,7 +8,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(250, 250, 250);
-    border-bottom: 2px solid rgb(240, 240, 240);
 }
 
 header .logo-container {
