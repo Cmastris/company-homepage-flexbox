@@ -77,3 +77,74 @@ header nav a:active {
         font-size: 1.1em;
     }
 }
+
+
+/* ==== Utilities and Components ==== */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding: 2rem 3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.6em;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-content {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container {
+        min-height: 0; /* Semi-transparent background covers entire image height */
+    }
+
+    .hero-content {
+        width: 100%;  /* Semi-transparent background covers entire image width */
+        max-width: 100%;
+        padding: 7rem 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+}
+
+
+/* ==== Elements ==== */
+
+h1 {
+    margin-bottom: 0.8em;
+    font-weight: 900;
+}
+
+
+/* ==== Miscellaneous ==== */
+
+#mission {
+    background-image: url("../images/hero-background.jpg");
+}
