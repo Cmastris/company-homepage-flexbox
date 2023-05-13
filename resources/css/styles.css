@@ -164,6 +164,38 @@ header nav a:active {
     }
 }
 
+.img-tiles {
+    padding: 3em 7.5%;
+}
+
+.img-tile {
+    min-width: 250px;
+    width: 280px;
+    border: 2px solid rgb(210, 210, 210);
+}
+
+.img-tile img {
+    border-bottom: 3px solid maroon;
+}
+
+.img-tile-text {
+    padding: 1.5em;
+}
+
+.img-tile h3 {
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1400px) {
+    .img-tiles {
+        padding: 2.5em 2.5%;
+    }
+
+    .img-tile {
+        flex-grow: 0; /* Prevent whitespace between fixed-width images and tile container */
+    }
+}
+
 .nav-tiles {
     background-color: rgb(240, 240, 240);
 }
