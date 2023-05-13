@@ -233,7 +233,7 @@ footer p {
 }
 
 .nav-tiles {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(250, 250, 250);
 }
 
 .nav-tile {
@@ -241,8 +241,8 @@ footer p {
     flex-direction: column;
     justify-content: center;
     padding: 2em 1.5em;
-    background-color: rgb(220, 220, 220);
-    box-shadow: 8px 8px 8px rgb(140, 140, 140);
+    background-color: rgb(238, 235, 235);
+    box-shadow: 8px 8px 8px rgb(185, 180, 180);
     color: black;
 }
 
