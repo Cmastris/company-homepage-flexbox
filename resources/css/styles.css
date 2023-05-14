@@ -27,7 +27,6 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-evenly;
     height: 100%;
     margin: 0;
